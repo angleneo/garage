@@ -1,0 +1,7 @@
+build/*.js
+config/*.js
+cityparts.vue
+main.js
+src/assets/*
+src/common/*.js
+src/pages/workorderpage/*.vue
