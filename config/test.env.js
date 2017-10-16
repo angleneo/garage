@@ -1,6 +1,6 @@
 var merge = require('webpack-merge')
-var devEnv = require('./dev.env')
+var prodEnv = require('./prod.env')
 
-module.exports = merge(devEnv, {
+module.exports = merge(prodEnv, {
   NODE_ENV: '"testing"'
 })
